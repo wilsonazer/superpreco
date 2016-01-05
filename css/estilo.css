@@ -1,0 +1,397 @@
+body{ background-image: url(../uploads/subtle_white_feathers.png)  }
+
+.navbar{ margin-bottom: 0;}
+.container{ padding: 0;}
+.categoria{ width: 100%;}
+
+main{ background-color: #fff; color: #333;}
+
+/***********pg index******************/
+
+.topo{ background-image: url(../uploads/gplaypattern.png);}
+
+/***********Cores de background******************/
+
+.bgGray{ background-color: #333333; color: #fff;}
+.bgGrayL{ background-color: #ccc; color: #fff;}
+.bgGreenL{ background-color: #66ff66; color: #333;}
+.bg-body{ background-image: url(../uploads/halftone.png);}
+
+/***************************helpers****************************/
+
+.fontZero{font-size: 0em; padding: 0; margin: 0; display: none;}
+
+
+/**************       TOPO  Contato ****************/
+
+.contem_contato{ 
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 17%, #8f0222 46%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 17%,#8f0222 46%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 17%,#8f0222 46%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+}
+.contato{ color: #fff;}
+.contato h1{ font-size: 2em;}
+.contato strong{font-size: 1.5em; text-shadow: 1px 1px 3px #8f0222; }
+.contato h2{font-size: 1.5em; color: #ccc}
+
+.face{ background-color: #3b5998; color: #fff; padding: 7px 10px; border-radius: 3px; margin-left: 5%; }
+.tel{  font-size: 1.5em; margin-left: 5%; background-color: #34af23; padding: 7px 10px; border-radius: 3px;}
+
+       /***************** TOPO CONAINER *************/          
+.topo_container h1{ font-family: 'Poiret One', cursive;  color: #cc0000; text-align: center; font-size: 3em; }             
+.topo_container h2{ font-family: 'Poiret One', cursive; color: #990000}             
+.topo_container h3{ font-family: 'Poiret One', cursive; color: #660000}   
+       
+        
+           /*****************    TOPO IMAGENS    *************/
+.topo_imagens img{ width: 210px; float: left;} 
+.topo_imagens p{ width: 15%; float: left; background-color: red;  padding-left: 1.5%; border-bottom-left-radius: 20px; border-top-right-radius: 20px; color: #fff; }
+        
+/*****************        SLIDE DA PÁGINA PRINCIPAL  ***********************/
+.cycle-pager { text-align: center; width: 100%; z-index: 99; position: absolute; top: 5px; overflow: hidden;}
+.cycle-pager span { font-family: arial; font-size: 50px; width: 16px; height: 16px; display: inline-block; color: #ddd; cursor: pointer; }
+.cycle-pager{ text-align: center; width: 100%; z-index: 9999; position: absolute; top: 10px; overflow: hidden;}
+.cycle-pager span { font-family: arial; font-size: 50px; width: 16px; height: 16px; display: inline-block; color: #ddd; cursor: pointer; }
+.cycle-pager span.cycle-pager-active { color: #003366;}
+.cycle-pager > * { cursor: pointer;}
+
+
+.slide_hover{ display: none; position: absolute; top: 40%; width: 100%; border: 1px solid #003366; text-align: center; font-size: 1.5em}
+.slide_hover .titulo{ display: block;}
+
+.slide{ position: relative; margin-top: 16px; }  
+.slide h2{ font-family: 'Poiret One', cursive; color: #660000; font-variant: small-caps; border-bottom: 5px solid #660000; padding-bottom: 2%;}
+.slide img{ overflow: hidden; width: 470px; height: 370px;}
+.slide img:hover{ opacity: .2;}
+.slide_contem:hover .slide_legenda { display: none;}
+.slide_contem:hover .slide_hover { display: block; background: transparent; color: #003366}
+
+
+.slide_contem{ position: relative;}
+.slide_contem a{ text-decoration: none; color: #fff; }
+
+.slide_legenda{ position: absolute; bottom: 0; background-color: rgba(0,0,0,.6); width: 100%;  padding-left: 40%; }
+
+
+/*************************** configuração globais****************************/
+
+.single h1{ font-size: 1.5em; color: #333}
+.confira{ font-size: 2.4em; color: #660000; font-family: 'Dancing Script', cursive; text-align: center;  text-shadow: 0 0 3px #ccc; }
+
+/*************************** configuração globais****************************/
+.thumbnail{ position: relative;}
+.thumbnail img{ width: 350px}
+.thumbnail:hover .preco{ display: block }
+.thumbnail ul{ list-style: none; margin: 2% 25%; }
+.thumbnail li{ display: inline-block;}
+.thumbnail li img{ width: 60px;}
+.thumbnail .preco{ top: 40%; left: 40%; color: #fff; position: absolute; display: none}
+.thumbnail .preco{ top: 40%; left: 40%; color: #fff; position: absolute; display: none}
+.thumbnail .preco h6{ color: #fff; font-size: 2em; background-color: rgba(0,0,0,.7); padding: 10px;}
+.thumbnail h2{ font-size: 1.1em; font-weight: bold;}
+.thumbnail h3{ font-size: 1em;}
+.thumbnail .price{ position: absolute; font-size: 1.3em; top: -5px; right: -5px;}
+.thumbnail sup{ font-weight: normal; font-size: 12px; }
+.thumbnail .glyphicon{ margin-right: 5px  }
+
+/***********         Contem slide e especiais  ASIDE******************/
+.contem_sl_es h1{ font-family: 'Poiret One', cursive; color: #660000; font-size: 1.7em}
+/***********           HOME ASIDE******************/
+.home_aside{ background-color: #fff; border: 1px solid #ccc; box-shadow: 1px 1px 1px #333; margin: 1.5% 0 0 0; }
+.home_aside ul{ list-style: none}
+.home_aside li{ display: inline-block;}
+
+/***************************             FOOTER EMPRESA           ****************************/
+.footer_empresa{ background-color: #337ab7; color: #fff; border-radius: 4px; box-shadow: 1px 3px 7px #000}
+
+
+
+/***********CONTENT_HOME_CATEGORIA******************/
+.content_home_categoria{ background-image: url(../uploads/greyzz.png);}
+.content_home_categoria h1{ font-size: 2em; color: #660000; font-family: 'Dancing Script', cursive;}
+.content_home_categoria h1::first-letter{ text-transform: uppercase;}
+
+
+/*************************** configuração do carrossel de produtos pg principal  (HOME CAR) )****************************/
+.home_car{ border: 1px solid rgba(0,0,0,.1); border-radius: 3px;  background-image: url(../uploads/crossword.png); margin-bottom: 2%;}
+.home_car ul{ list-style: none; margin-top: 3%}
+.home_car li{ display: inline-block;}
+
+
+/***********Carrossel Home******************/
+.carrossel_home{position: relative; margin: 0 auto; overflow: hidden;}
+.carrossel_home li{ margin-right: 2px; background-color: #fff; border: 1px solid #ddd; position: relative;}
+.carrossel_home li:hover{ box-shadow: 1px 1px 5px #330000; }
+.carrossel_home li:hover .home_car_legenda{ display: none }
+.carrossel_home img:hover{ opacity: .2}
+.carrossel_home li:first-child{ margin-left: 0}
+.carrossel_home a{ color: #444; text-decoration: none;  margin-left: 4px;}
+.carrossel_home a p{ color: #888; padding-left: 15%}
+.carrossel_home a span{ color: tomato; padding-left: 5%;}
+.carrossel_home li span{font-weight: bold; margin-left: 3px; padding: 0 8px; font-size: 1.3em;}
+.carrossel_home img{ width: 170px; height: 220px; background-color: #66ff66; margin-bottom: 0; padding-bottom: 0;}
+.carrossel_home .prev{  position: absolute; top: 40%; left: 5%; background-color: rgba(0,0,0,.7); padding: 5px; color: #fff; z-index: 99;}
+.carrossel_home .next{  position: absolute; top: 40%; right: 5%;  background-color: rgba(0,0,0,.7); padding: 5px; color: #fff; z-index: 99;}
+.carrossel_home .prev i{ font-size: 2em;}
+.carrossel_home .next i{ font-size: 2em;}
+
+.home_car_legenda{ position: absolute; bottom: 0px; background: rgba(0,0,0,.7); width: 100%; padding-left: 2%;}
+.home_car_legenda h3{ font-size: 1em; color: #fff;}
+
+/***********HOME CAR HOVER******************/
+.home_car_hover{ position: absolute; color: #fff; top: 20%; display: none; background-color: transparent; border: 2px solid #003366; }
+.carrossel_home .home_car_hover span{ color: #003366;  font-family: 'Poiret One', cursive; }
+.carrossel_home li:hover .home_car_hover{ display: block }
+/***********PÁGINA CATEGORIA******************/
+.btnSub{ border: 1px solid} 
+
+/***********  CONTEÙDO CAIXA   ******************/
+.conteudo_caixa{ width: 200px; height: 200px; margin: auto; perspective: 700;-webkit-perspective: 700}
+
+   /***********   CARTA   ******************/
+.carta{ width:100%; height: 100%; position: relative; transform-style: preserve-3d;} 
+.carta:hover{ transform: rotateY(180deg); transition: 2s;} 
+
+   /***********  LADO  ******************/
+.lado{ width:100%; height: 100%; backface-visibility: hidden; position: absolute;}  
+ 
+.frente img{position: relative; opacity: .5}
+.frente span{position: absolute; top: 0%; ; color: #444; width: 100%; font-size: 1.3em; font-family: 'Poiret One', cursive; font-weight: bolder;}
+ 
+/***********CONTEÙDO CAIXA******************/
+
+.atras{ transform: rotatey(180deg); }
+
+
+ /***********Footer Site******************/
+.footer_site{ background-image: url(../uploads/subtle_carbon.png); color: #F0EFE7}
+
+/***********Cores de Fontes******************/
+
+.fBlue{ color: #003366 }
+.fRed{  color: #990000}
+.fgradientRoxo h1{ font-size: 2em; background-image: -webkit-gradient(
+linear,
+left top, left bottom,
+from(rgba(0,191,255, 1)),
+to(rgba(0,0,139,1))
+);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ padding-bottom:  1%;}
+
+/***********Menu de Navegação do site******************/
+*{margin:0;padding:0;text-decoration:none}
+header{position:relative;width:100%;background-image: url(../uploads/subtle_carbon.png);}
+.logo{position:relative;z-index:123;padding:10px;font:18px verdana;color:#337ab7;float:left;width:13%}
+.logo a{color: #337ab7;}
+nav{position:relative;width:980px;margin:0 auto;}
+#cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{border:0;list-style:none;line-height:1;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#cssmenu:after,#cssmenu > ul:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+#cssmenu #head-mobile{display:none}
+#cssmenu{font-family:sans-serif;background-image: url(../uploads/subtle_carbon.png)}
+#cssmenu > ul > li{float:left}
+#cssmenu > ul > li > a{padding:17px;font-size:12px;letter-spacing:1px;text-decoration:none;color:#ddd;font-weight:700;}
+#cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#fff}
+#cssmenu > ul > li:hover,#cssmenu ul li.active:hover,#cssmenu ul li.active,#cssmenu ul li.has-sub.active:hover{background: #337ab7!important;-webkit-transition:background .3s ease;-ms-transition:background .3s ease;transition:background .3s ease;}
+#cssmenu > ul > li.has-sub > a{padding-right:30px}
+#cssmenu > ul > li.has-sub > a:after{position:absolute;top:22px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu > ul > li.has-sub > a:before{position:absolute;top:19px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
+#cssmenu > ul > li.has-sub:hover > a:before{top:23px;height:0}
+#cssmenu ul ul{position:absolute;left:-9999px}
+#cssmenu ul ul li{height:0;-webkit-transition:all .25s ease;-ms-transition:all .25s ease;background:#333;transition:all .25s ease}
+#cssmenu ul ul li:hover{}
+#cssmenu li:hover > ul{left:auto}
+#cssmenu li:hover > ul > li{height:35px}
+#cssmenu ul ul ul{margin-left:100%;top:0}
+#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:11px 15px;width:170px;font-size:12px;text-decoration:none;color:#ddd;font-weight:400;}
+#cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#fff}
+#cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul li.has-sub > a:before{position:absolute;top:13px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
+#cssmenu ul ul > li.has-sub:hover > a:before{top:17px;height:0}
+#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{background:#363636;}
+#cssmenu ul ul ul li.active a{border-left:1px solid #333}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active> a{border-top:1px solid #333}
+
+@media screen and (max-width:700px){
+.logo{position:absolute;top:0;left: 0;width:100%;height:46px;text-align:center;padding:10px 0 0 0 ;float:none}
+.logo2{display:none}
+nav{width:100%;}
+#cssmenu{width:100%}
+#cssmenu ul{width:100%;display:none}
+#cssmenu ul li{width:100%;border-top:1px solid #444}
+#cssmenu ul li:hover{background:#363636;}
+#cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto}
+#cssmenu ul li a,#cssmenu ul ul li a{width:100%;border-bottom:0}
+#cssmenu > ul > li{float:none}
+#cssmenu ul ul li a{padding-left:25px}
+#cssmenu ul ul li{background:#333!important;}
+#cssmenu ul ul li:hover{background:#363636!important}
+#cssmenu ul ul ul li a{padding-left:35px}
+#cssmenu ul ul li a{color:#ddd;background:none}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li.active > a{color:#fff}
+#cssmenu ul ul,#cssmenu ul ul ul{position:relative;left:0;width:100%;margin:0;text-align:left}
+#cssmenu > ul > li.has-sub > a:after,#cssmenu > ul > li.has-sub > a:before,#cssmenu ul ul > li.has-sub > a:after,#cssmenu ul ul > li.has-sub > a:before{display:none}
+#cssmenu #head-mobile{display:block;padding:23px;color:#ddd;font-size:12px;font-weight:700}
+.button{width:55px;height:46px;position:absolute;right:0;top:0;cursor:pointer;z-index: 12399994;}
+.button:after{position:absolute;top:22px;right:20px;display:block;height:4px;width:20px;border-top:2px solid #dddddd;border-bottom:2px solid #dddddd;content:''}
+.button:before{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;position:absolute;top:16px;right:20px;display:block;height:2px;width:20px;background:#ddd;content:''}
+.button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top:23px;border:0;height:2px;width:19px;background:#fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.button.menu-opened:before{top:23px;background:#fff;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
+#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #444;height:46px;width:46px;cursor:pointer}
+#cssmenu .submenu-button.submenu-opened{background:#262626}
+#cssmenu ul ul .submenu-button{height:34px;width:34px}
+#cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:after{top:15px;right:13px}
+#cssmenu .submenu-button.submenu-opened:after{background:#fff}
+#cssmenu .submenu-button:before{position:absolute;top:19px;right:22px;display:block;width:2px;height:8px;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:before{top:12px;right:16px}
+#cssmenu .submenu-button.submenu-opened:before{display:none}
+#cssmenu ul ul ul li.active a{border-left:none}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
+}
+
+ /***********Página de Categorias**********/
+ .categoria h1{ font-family: 'Dancing Script', cursive; font-size: 1.7em; border-bottom: 1px solid  #663300; padding-bottom: 1.7% ; }
+ .categoria h2{ font-family: 'Trebuchet MS', Tahoma, sans-serif; font-size: 1em; color: #003366}
+ .categoria ul{ list-style: none; margin-bottom: 3%;}
+ .categoria li{ background-color: #eee; display: inline-block; box-sizing: border-box; margin-right: 20px; padding: 15px; margin-bottom: 10px; padding-bottom: 10px;}
+ .categoria li:hover{ box-shadow: 1px 1px 5px #999;  }
+ .categoria a{ color: #663300; text-decoration: none;}
+ .categoria img{ width: 220px; margin: auto; }
+  
+ .cat_content{ background-color: #fff; margin: 0 auto;}
+ .cat_title{  font-size: 1em; margin-top: 3px;  margin-bottom: 8px;}
+ .cat_preco{ font-size: 1.3em; font-weight: bold; color: #ff6600 }
+ 
+ .cat-con-empresas .cat_title{ font-size: 1.3em; margin: 1.5% 0 0 1%; padding-left: 1%;}
+     
+.rating > span:hover:before{ content: "\2605"; position: absolute; }
+.rating span{ color: #ff9900; }
+.rating span:last-child{ color: #999; padding-left: 3px; }
+
+
+ /***********PÁGINATOR**********/
+ .contem_home_paginator{ margin-top: 3%;}
+.paginator{float: left; width: 908px; margin-top: -10px;}
+.paginator h2{font-size: 0px;}
+.paginator ul{display: block; background: #337ab7; padding: 10px; text-align: center}
+.paginator ul{
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.paginator ul li{display: inline;}
+.paginator ul li a,
+.paginator ul li span{padding: 5px; font-family: 'Baumans', cursive; font-size: 20px;}
+.paginator ul li a{color: #fff;}
+.paginator ul li a:hover{text-decoration: underline;}
+
+/***********      BOX PESQUISA EMPRESA******************/
+/***********     EMPRESA ENDEREÇO  ******************/
+.empresa_endereco h1{ font-size: 2em;}
+.empresa_endereco h2{ font-size: 1.2em;}
+.empresa_endereco h3{ font-size: 1.2em;}
+.empresa_endereco h4{ font-size: 1.2em;}
+.empresa_endereco h5{ font-size: 1.2em;}
+
+.empresa_contato h1{ font-size: 2em;}
+.empresa_contato ul{ list-style: none; padding: 3px 0;}
+.empresa_contato li{ font-size: 1.4em}
+
+.empresa_localizacao h1{ font-size: 2em;}
+ /***********THEMES BANNER EMPRESA PG PRODUTO**********/
+ .cont_banner_theme{ padding: 3% 0;}
+ 
+ .banner_theme_logo img{ float: left;}
+ .ba-th-lo_contato ul{ list-style: none;}
+     /***********TEMA CARBONO ESTILO TELA**********/
+ .empr_banner_theme_1{ background-image: url(../uploads/bo_play_pattern.png); color: #fff;}
+ 
+        /***********TEMA MURO TIJOLOS BRACOS**********/
+ .empr_banner_theme_2{ background-image: url(../uploads/white_brick_wall.png)}
+ 
+     /***********TEMA CARBONO RISCOS VERTICAIS**********/
+ .empr_banner_theme_3{ background-image: url(../uploads/vertical_cloth.png); color: #fff;}
+ 
+     /***********TEMA MURO QUADRADOS BRACOS**********/
+ .empr_banner_theme_4{ background-image: url(../uploads/tiny_grid.png)}
+ 
+     /***********TEMA DIAMANTES NEGROS**********/
+ .empr_banner_theme_5{ background-image: url(../uploads/diagmonds.png); color: #fff;}
+ 
+ .contato_produto h3{ font-size: 2.3em; border-bottom: 1px solid; padding-bottom: 10px; }
+.contato_produto ul{ list-style: none; }
+.contato_produto li{  font-size: 1.5em; }
+ 
+ /*********** FOOTER CATEGORIAS **********/
+.footer_categorias ul { list-style: none;}
+ /***********MEDIA QUERY**********/
+       
+      @media (max-width: 480px) {
+               
+        /***********   Topo    **********/
+       .contato h1{ font-size: 1.4em; text-align: center;}   
+       .contato strong{ font-size: 1.4em; text-align: center;}
+       .contato h2{ font-size: 1.2em;}
+       
+       .slide img{ margin: 0;}
+       
+         /***********      Topo index     **********/
+       .topo_imagens img{ width: 160px}
+       
+       .topo_container h2{ font-size: 1.5em;}
+       .topo_container h3{ font-size: 1.3em;}
+       .slide img{ width: 100%; height: 80%}
+              
+        /***********Topo index**********/
+        .menu_principal input[type=text]{ width: 80%; float: left; margin: 0 2%}
+       
+        /********** Especiais pg-index**********/
+        .titulo_especiais{ text-align: center;}
+        
+        .home_aside li{ width: 165px; background-color: goldenrod; }
+        .frente img{width: 165px; opacity: .4}
+        .home_aside span{ top: 30%; width: 100%; left: 30%; color: #fff; font-weight: bold; font-size: 1.8em;}
+        
+        /***********Banner empresa pg-empresa **********/
+        .ba-th-lo_contato h3{ margin-top: 20%; }
+        .ba-th-lo_contato li{ font-size: 1.3em; }
+        
+         /***********  CARROSSEL HOME **********/
+         .home_car li{ width: 70%;}
+         .home_car img{  width: 100%;}
+         
+         .home_car_hover{ width: 100%}
+         
+        /***********Categoria **********/
+     .categoria li{ width: 100%; margin: 1px; padding: 1px; }
+     .categoria img{ width: 330px }
+     .categoria a{ font-size: 0.8em; text-decoration: none; }
+      
+           
+      /***********CAT CONTENT pg-categorias**********/
+      .cat_content img{ width: 200px;}
+      .cat_content ul{ background-image: url(../uploads/vertical_cloth.png);}
+      .cat_content li{  width: 80%; margin: 5% 10%; background-color: #fff;}
+      .cat_content li:hover img{ opacity: .7;}
+      
+       /***********CAT CONTENT Empresas pg-empresas**********/
+       .cat-con-empresas img{ width: 180px; margin: 1.5% 20% ;}
+       .cat-con-empresas .cat_title{ font-size: 1.5em; margin-left: 10%; padding-left: 10%;}
+      
+      /***********Pesquisa empresa **********/
+      .box_pes_empresa input[type=text]{ width: 80%; float: left; margin-left: 3%; margin-right: 2px}
+    
+      
+
+    
+     
+       }    
