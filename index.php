@@ -32,7 +32,7 @@ $Session = new Session;
            $Link->getTags();
          ?>
 		 
-		<meta name="alexaVerifyID" content="sjier3eVxj3qAj24y86mC4MpBz0"/>
+       <meta name="alexaVerifyID" content="sjier3eVxj3qAj24y86mC4MpBz0"/>
 		 
        <link rel="author" href="https://plus.google.com/106863818291324973616/posts"/>
        <link rel="publisher" href="https://plus.google.com/115769804640401638043"/>

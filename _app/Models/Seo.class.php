@@ -82,6 +82,8 @@ class Seo {
                     $Update = new Update();
                     $Update->ExeUpdate("ws_posts", $ArrUpdate, "WHERE post_id = :postid", "postid={$post_id}");
                 endif;
+                
+                
                 break;
 
             //SEO:: CATEGORIA
@@ -186,18 +188,22 @@ class Seo {
                 else:
                     extract($ReadSeo->getResult()[0]);
                     $this->seoData = $ReadSeo->getResult()[0];
+                    $this->Data = ["Cadastre grátis sua Empresa - " . SITENAME, "O melhor site para empresas divulgarem suas ofertas do Brasil", HOME . '/cadastra-empresa/' . $this->Link, INCLUDE_PATH . '/images/site.png'];
+                     $this->seoTags = '<title>' . $this->Tags['Title'] . '</title> ' . "\n";
+                     $this->seoTags .= '<meta name="description" content="' . $this->Tags['Content'] . '"/>' . "\n";
+                     $this->seoTags .= '<meta name="robots" content="index, follow" />' . "\n";
+                break;
                 
                 endif;
                 break;
-
-            //SEO:: CADASTRA EMPRESA
-            case 'cadastra-empresa':
-                $this->Data = ["Cadastre sua Empresa - " . SITENAME, "Página modelo para cadastro de empresas via Front-End do curso Work Series - PHP Orientado a Objetos!", HOME . '/cadastra-empresa/' . $this->Link, INCLUDE_PATH . '/images/site.png'];
+            
+                case 'produto':
+                $this->Data = ["Produtos - " . SITENAME, "O melhor site para empresas divulgarem suas ofertas do Brasil", HOME . '/cadastra-empresa/' . $this->Link, INCLUDE_PATH . '/images/site.png'];
                 break;
-
+      
             //SEO:: INDEX
             case 'index':
-                $this->Data = [SITENAME . ' - Encontre as melhores promoções de Joinville!', SITEDESC, HOME, INCLUDE_PATH . '/images/site.png'];
+                $this->Data = [SITENAME . ' ', SITEDESC, HOME, INCLUDE_PATH];
                 break;
 
             //SEO:: 404
@@ -225,7 +231,7 @@ class Seo {
 
         //NORMAL PAGE
         $this->seoTags = '<title>' . $this->Tags['Title'] . '</title> ' . "\n";
-        $this->seoTags .= '<meta name="description" content="' . $this->Tags['Content'] . '"/>' . "\n";
+        $this->seoTags .= '<meta name="description" content="' . $this->Tags['Content'] . '" Promoville o maior site de promoções do Brasil/>' . "\n";
         $this->seoTags .= '<meta name="robots" content="index, follow" />' . "\n";
         $this->seoTags .= '<link rel="canonical" href="' . $this->Tags['Link'] . '">' . "\n";
         $this->seoTags .= "\n";
